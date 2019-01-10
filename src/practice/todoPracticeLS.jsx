@@ -90,7 +90,7 @@ class TodoPracLS extends React.Component{
     render(){
         return (
             <React.Fragment>
-                <center><h1>To Do List </h1><br />
+                <center><h1 className="todo">To Do List </h1><br />
                 <input type='text' placeholder="Enter todo" className="input" maxLength="20" onKeyUp={this.insert}/>
                 <ul>{this.state.list.map((data,index) => <li key={'key' + index}>{data}<input className="delete" type='button' onClick={() => this.remove(index)}/></li>)}</ul>
                 </center>

@@ -8,7 +8,7 @@
     "git": "^0.1.5",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.0"
+    "react-scripts": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +26,16 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KashyapAnkur/toDoApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KashyapAnkur/toDoApp/issues"
+  }
 }
